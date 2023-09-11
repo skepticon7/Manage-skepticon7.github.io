@@ -450,25 +450,30 @@ header{
 }
 
 
-.custom{
-
-    padding: 0 20px 30px 20px;
-    background-color: hsl(0, 0%,95%); 
+.custom {
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
     text-align: center;
-    height: 140% !important;
+    height: 100% !important;
     border-radius: 5px;
-
-}
-
-.custom img{
+  }
+  
+  .slide-content {
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    padding: 50px 20px 30px 20px;
+  }
+  
+  .slide-content h4 {
+    margin-bottom: 20px;
+  }
+  
+  .custom img {
     width: 25%;
-    transform: translateY(-50%);
-}
-
+    transform: translateY(70%);
+  }
 
 
 
